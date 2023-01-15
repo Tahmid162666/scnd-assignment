@@ -39,8 +39,8 @@ justify-content: space-between;
     display: inline-block;  
 }
 .menu_item li {
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 20px;
     line-height: 26px;
     text-align: center;
     margin: 20px ;
@@ -60,7 +60,7 @@ color: #131313;
 margin-bottom: 20px;
 }
 .text p {
-    font-weight: 400;
+    font-weight: 500;
 font-size: 16px;
 line-height: 26px;
 text-align: center;
@@ -242,6 +242,11 @@ color: #727272;
     justify-content: space-around;
     
 }
+.Awards :hover{
+    background-color: #FF900E;
+    transition: .4s;
+    transform: rotate(30deg);
+}
 
 .Awards_item{
     padding: 30px;
@@ -253,9 +258,9 @@ padding: 10px;
 }
 .Awards_item h5{
     font-weight: 600;
-font-size: 45px;
-line-height: 53px;
-color: #424242;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
 
 }
 .Awards_item p{
@@ -298,6 +303,7 @@ color: #727272;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
   }
  .picture{
     filter: grayscale(100%);
@@ -305,17 +311,14 @@ color: #727272;
 /* sponsor logo part start  */
 /* footer part start  */
 .copyright {
-    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
     background-color: #FFF4E7;
     font-weight: 200;
-font-size: 15px;
-line-height: 23px;
-text-align: center;
-
-/* Dark 02 */
-
-color: #424242;
-padding: 20px;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+     padding: 20px;
 
 }
